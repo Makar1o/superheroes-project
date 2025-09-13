@@ -1,0 +1,131 @@
+{
+  "heroes": [
+    {
+      "id": "Stu7-SvVfFIFLdS5mO-_3",
+      "nickname": "Obiii",
+      "real_name": "Obi-One Kenobi",
+      "origin_description": "He lost hes master, love, friend, apprentice, order.. he literaly lost everything but still..",
+      "superpowers": "He has power.",
+      "catch_phrase": "Hello there",
+      "images": [
+        {
+          "id": "Aoy96BAHE1fhtK-GBew0x",
+          "url": "/uploads/1757802865773-oBiiiiii.jpg",
+          "filename": "1757802865773-oBiiiiii.jpg"
+        },
+        {
+          "id": "FgfMQkGNVGGSqStFDG8VH",
+          "url": "/uploads/1757802865773-obi-wan.jpg",
+          "filename": "1757802865773-obi-wan.jpg"
+        }
+      ],
+      "createdAt": "2025-09-13T22:34:25.756Z",
+      "updatedAt": "2025-09-13T22:34:25.775Z"
+    },
+    {
+      "id": "3QwjWoR8lwzFAjXdiMMUd",
+      "nickname": "Zu-zu",
+      "real_name": "Zuko",
+      "origin_description": "He is the prince of fire nation.",
+      "superpowers": "Firebending",
+      "catch_phrase": "Hello zuko here",
+      "images": [
+        {
+          "id": "ePVVnJ-LQWa1mmqYVymk4",
+          "url": "/uploads/1757802138755-zuko.1.jpg",
+          "filename": "1757802138755-zuko.1.jpg"
+        },
+        {
+          "id": "JQpgvMFk__z8zC0RGjqCz",
+          "url": "/uploads/1757802138755-zuko.2.jpg",
+          "filename": "1757802138755-zuko.2.jpg"
+        },
+        {
+          "id": "5vxMJZheGXw8MuQGxKTK2",
+          "url": "/uploads/1757802138760-Знімок екрана 2024-04-22 221631.png",
+          "filename": "1757802138760-Знімок екрана 2024-04-22 221631.png"
+        }
+      ],
+      "createdAt": "2025-09-13T22:22:18.736Z",
+      "updatedAt": "2025-09-13T22:22:18.764Z"
+    },
+    {
+      "id": "IJ43am6mOjDZFgwDMWWrd",
+      "nickname": "Avatar Aang",
+      "real_name": "Aang",
+      "origin_description": "He is the last airbender in whole world",
+      "superpowers": "airbending",
+      "catch_phrase": "Hello im AANG",
+      "images": [
+        {
+          "id": "EKYMJtRWe0Gp9CeO2Lzqn",
+          "url": "/uploads/1757802067804-aang.png",
+          "filename": "1757802067804-aang.png"
+        }
+      ],
+      "createdAt": "2025-09-13T22:21:07.789Z",
+      "updatedAt": "2025-09-13T22:21:07.807Z"
+    },
+    {
+      "id": "L0tNYAo2aKZgWAscFqsyK",
+      "nickname": "Asoka ",
+      "real_name": "Asoka Tano",
+      "origin_description": "She had master order hope, but in one moment only disappointment.",
+      "superpowers": "Power with power",
+      "catch_phrase": "I AM NOT JEDI",
+      "images": [
+        {
+          "id": "OmScJBp7cZCgINl_bg0VM",
+          "url": "/uploads/1757803129067-asoka.jpg",
+          "filename": "1757803129067-asoka.jpg"
+        },
+        {
+          "id": "g1iEjYKN8MV1VxPCWO9Ap",
+          "url": "/uploads/1757803129078-асока.jpg",
+          "filename": "1757803129078-асока.jpg"
+        }
+      ],
+      "createdAt": "2025-09-13T22:04:42.725Z",
+      "updatedAt": "2025-09-13T22:38:49.080Z"
+    },
+    {
+      "id": "4bRAA91KRaXyDIBD7-aYI",
+      "nickname": "Dart Vader",
+      "real_name": "Anakin Skywalker",
+      "origin_description": "He just lost everything he has but in the end of the day absolute cinema..",
+      "superpowers": "Power of anger",
+      "catch_phrase": "LIERRRRRRRRRRRRRR",
+      "images": [
+        {
+          "id": "kkLM7n_khAipRmYuH2wI3",
+          "url": "/uploads/1757782046074-Ani-padme.jpg",
+          "filename": "1757782046074-Ani-padme.jpg"
+        },
+        {
+          "id": "DKgex0o-Zl7zKc2O2UqFd",
+          "url": "/uploads/1757782046075-asoka.jpg",
+          "filename": "1757782046075-asoka.jpg"
+        }
+      ],
+      "createdAt": "2025-09-13T16:47:26.061Z",
+      "updatedAt": "2025-09-13T22:36:23.530Z"
+    },
+    {
+      "id": "4PY29VaYnwrXKhpHc8kmf",
+      "nickname": "Anton",
+      "real_name": "BETMAN",
+      "origin_description": "lol have no story",
+      "superpowers": "money",
+      "catch_phrase": "HELLO",
+      "images": [
+        {
+          "id": "Esp90zWecT5HlTc5KPmqi",
+          "url": "/uploads/1757781545936-53.png",
+          "filename": "1757781545936-53.png"
+        }
+      ],
+      "createdAt": "2025-09-13T16:39:05.912Z",
+      "updatedAt": "2025-09-13T22:39:21.536Z"
+    }
+  ]
+}
