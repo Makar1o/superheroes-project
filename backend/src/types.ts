@@ -1,11 +1,11 @@
 export type ImageEntry = {
-  id: string; // uuid
-  url: string; // /uploads/...
+  id: string;
+  url: string;
   filename: string;
 };
 
 export type Superhero = {
-  id: string; // uuid
+  id: string;
   nickname: string;
   real_name?: string;
   origin_description?: string;

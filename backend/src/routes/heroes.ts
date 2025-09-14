@@ -102,7 +102,6 @@ router.delete("/:id", async (req: Request, res: Response) => {
   if (idx === -1) return res.status(404).json({ message: "Not found" });
 
   const hero = db.data.heroes[idx];
-  // видаляємо картинки
   for (const img of hero.images) {
     const p = join(uploadDir, img.filename);
     if (fs.existsSync(p)) fs.unlinkSync(p);
@@ -115,7 +114,6 @@ router.delete("/:id", async (req: Request, res: Response) => {
 });
 
 // Upload images
-// Upload images
 router.post(
   "/:id/images",
   upload.array("images", 10),
@@ -126,7 +124,6 @@ router.post(
     const hero = db.data.heroes.find((h) => h.id === req.params.id);
     if (!hero) return res.status(404).json({ message: "Not found" });
 
-    // TS правильно визначає req.files як Array<Express.Multer.File> | undefined
     const files = req.files as Express.Multer.File[] | undefined;
     if (!files || files.length === 0)
       return res.status(400).json({ message: "No files uploaded" });

@@ -2,7 +2,14 @@
 
 import { useState, useEffect } from "react";
 import { useRouter, useParams } from "next/navigation";
-import { fetchHero, updateHero, deleteHero, uploadHeroImages, deleteHeroImage, Hero } from "../../../utils/api";
+import {
+  fetchHero,
+  updateHero,
+  deleteHero,
+  uploadHeroImages,
+  deleteHeroImage,
+  Hero,
+} from "../../../utils/api";
 import Image from "next/image";
 
 export default function EditPage() {
@@ -26,6 +33,7 @@ export default function EditPage() {
     if (heroId) {
       loadHero();
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [heroId]);
 
   const loadHero = async () => {
@@ -57,7 +65,7 @@ export default function EditPage() {
 
     setSaving(true);
     try {
-      // Оновлюємо дані героя
+      // update hero data
       await updateHero(heroId, {
         nickname,
         real_name: realName,
@@ -66,7 +74,7 @@ export default function EditPage() {
         catch_phrase: catchPhrase,
       });
 
-      // Завантажуємо нові зображення
+      // download new images
       if (newImages.length > 0) {
         await uploadHeroImages(heroId, newImages);
       }
@@ -102,7 +110,7 @@ export default function EditPage() {
 
     try {
       await deleteHeroImage(heroId, imageId);
-      await loadHero(); // Перезавантажуємо дані
+      await loadHero();
     } catch (error) {
       console.error("Error deleting image:", error);
       alert("Failed to delete image");
@@ -124,7 +132,9 @@ export default function EditPage() {
     return (
       <div className="min-h-screen bg-white flex items-center justify-center">
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-gray-900 mb-4">Hero not found</h1>
+          <h1 className="text-2xl font-bold text-gray-900 mb-4">
+            Hero not found
+          </h1>
           <button
             onClick={() => router.push("/")}
             className="bg-[#2C275F] text-white px-6 py-2 rounded-lg hover:bg-[#1e1a4a] transition"
@@ -140,12 +150,8 @@ export default function EditPage() {
     <div className="min-h-screen bg-white py-12">
       <div className="max-w-4xl mx-auto px-4">
         <div className="text-center mb-8">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">
-            Edit Hero
-          </h1>
-          <p className="text-gray-600">
-            Update {hero.nickname}'s information
-          </p>
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">Edit Hero</h1>
+          <p className="text-gray-600">Update {hero.nickname}`s information</p>
         </div>
 
         <form
@@ -220,7 +226,6 @@ export default function EditPage() {
             />
           </div>
 
-          {/* Existing Images */}
           {hero.images.length > 0 && (
             <div className="space-y-4">
               <label className="block text-sm font-semibold text-[#2C275F]">
